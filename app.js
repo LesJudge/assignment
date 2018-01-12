@@ -1,7 +1,6 @@
 // require and instantiate express
 const app = require('express')()
 
-var data = require('./model/data.json');
 var assignment = require('./model/assignment.json');
 
 // set the view engine to ejs
