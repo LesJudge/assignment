@@ -1,0 +1,120 @@
+
+{
+  "general": {
+    "pageTitle": "Vluchtvoucher"
+  },
+  "vouchers": [
+    {
+      "id": "1",
+      "name": "Voucher 1",
+      "body": {
+        "passenger": {
+          "panelTitle": "Reizigers informatie",
+          "passengers": [
+            {
+              "name": "Nick Zoutendijk",
+              "nameLabel": "Naam",
+              "ticket": "BA7428952781",
+              "ticketLabel": "Eticket nummer",
+              "baggage": "1 stuk (max. 23 kg) per passagier",
+              "baggageLabel": "baggage"
+            },
+            {
+              "name": "Carolien van Spek",
+              "nameLabel": "Naam",
+              "ticket": "BA7428952782",
+              "ticketLabel": "Eticket nummer",
+              "baggage": "2 stuk (max. 23 kg) per passagier",
+              "baggageLabel": "baggage"
+            }
+          ]
+        },
+        "flight":{
+          "panelTitle": "Vlucht informatie",
+          "flights": [
+            {
+              "name": "Vlucht 1",
+              "id": "BA952093",
+              "idLabel": "Boekingsnummer",
+              "startTitle": "Vertrek",
+              "startDate": "06 november 2017",
+              "startTime": "11:30",
+              "startDay": "maandag",
+              "startCity": "Amsterdam",
+              "startAirport": "Shiphol",
+              "startAirportIATA": "AMS",
+              "arrivalTitle": "Aankomst",
+              "arrivalDate": "06 november 2017",
+              "arrivalTime": "12:30",
+              "arrivalDay": "maandag",
+              "arrivalCity": "London",
+              "arrivalAirport": "London City Airport",
+              "arrivalAirportIATA": "LCY",
+              "flightTitle:": "Vlucht",
+              "flightDuration": "1 uur",
+              "flightCompany": "British Airways",
+              "flightNumberLabel": "Vluchtnummer",
+              "flightNumber": "BA8452"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2",
+      "name": "Voucher 2",
+      "body": {
+        "passenger": {
+          "panelTitle": "Reizigers informatie",
+          "passengers": [
+            {
+              "name": "Robin van Persie",
+              "nameLabel": "Naam",
+              "ticket": "BA7428942723",
+              "ticketLabel": "Eticket nummer",
+              "baggage": "1 stuk (max. 23 kg) per passagier",
+              "baggageLabel": "baggage"
+            },
+            {
+              "name": "Wesley Sneijder",
+              "nameLabel": "Naam",
+              "ticket": "BA7428942724",
+              "ticketLabel": "Eticket nummer",
+              "baggage": "2 stuk (max. 23 kg) per passagier",
+              "baggageLabel": "baggage"
+            }
+          ]
+        },
+        "flight":{
+          "panelTitle": "Vlucht informatie",
+          "flights": [
+            {
+              "name": "Vlucht 1",
+              "id": "BA952085",
+              "idLabel": "Boekingsnummer",
+              "startTitle": "Vertrek",
+              "startDate": "06 april 2017",
+              "startTime": "11:30",
+              "startDay": "maandag",
+              "startCity": "Amsterdam",
+              "startAirport": "Shiphol",
+              "startAirportIATA": "AMS",
+              "arrivalTitle": "Aankomst",
+              "arrivalDate": "06 april 2018",
+              "arrivalTime": "12:30",
+              "arrivalDay": "maandag",
+              "arrivalCity": "London",
+              "arrivalAirport": "London City Airport",
+              "arrivalAirportIATA": "LCY",
+              "flightTitle:": "Vlucht",
+              "flightDuration": "1 uur",
+              "flightCompany": "British Airways",
+              "flightNumberLabel": "Vluchtnummer",
+              "flightNumber": "BA8474"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
