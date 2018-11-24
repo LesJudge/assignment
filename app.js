@@ -9,14 +9,20 @@ app.set('view engine', 'ejs');
 // index page
 app.get('/', function (req, res) {
     res.render('index', {
-        data: data,
         assignment: assignment,
     });
 });
 
-app.listen(8081);
+// demo page
+app.get('/demo/', function (req, res) {
+    res.render('demo', {
+        assignment: assignment,
+    });
+});
 
-console.log('listening on port 8081');
+app.listen(8082);
+
+console.log('listening on port 8082');
 
 
 
